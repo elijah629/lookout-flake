@@ -3,11 +3,11 @@
     "lookout-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1781754407,
-        "narHash": "sha256-YoJ1oJVvNrpAtvUidP0WiYHusNdPZQSg2KVuALX9vn4=",
+        "lastModified": 1788353027,
+        "narHash": "sha256-Clexv3OliAcxuYs9OzVeWeXCrBiKk3XY39HNcSZxHLQ=",
         "owner": "hackclub",
         "repo": "lookout",
-        "rev": "8e2c0122371742e8220cbdb3ce9ebae381ba479e",
+        "rev": "17327edf08db720bbb721b7f54cbbfce0c78a189",
         "type": "github"
       },
       "original": {

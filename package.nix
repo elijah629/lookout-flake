@@ -38,7 +38,7 @@ let
   tauriConfig = builtins.fromJSON (builtins.readFile "${src}/clients/desktop/src-tauri/tauri.conf.json");
   version = tauriConfig.version;
   pname = "lookout";
-  npmDepsHash = "sha256-z+KldbcpgtkwI+UdmGU9/jjklnYOt49Yi2VCM/sFltg=";
+  npmDepsHash = "sha256-yi4SIuHu92TGArMOusLqYX5x0fxHPvLRn+v2JZa/spU=";
   npmDeps = fetchNpmDeps {
     inherit src;
     hash = npmDepsHash;
@@ -79,7 +79,7 @@ rustPlatform.buildRustPackage {
   inherit pname version src;
 
   cargoRoot = "clients/desktop/src-tauri";
-  cargoHash = "sha256-8VJZ1M6zyMsghfiZQfVWtHwblJnE6zFhylDvPFbPGsc=";
+  cargoHash = "sha256-qdKzdjsyYWXaJRtQ99dEJVtYnsHJaD6M8Hk7/QFIGe0=";
 
   inherit npmDeps;
   npmRoot = ".";
